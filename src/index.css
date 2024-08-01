@@ -1,0 +1,259 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.links:hover{
+  color: rgb(3,253,152);
+}
+.green{
+  color: rgb(3,253,152);
+}
+
+.links{
+  color: white;
+  transition: all 0.3s ease-in-out;
+}
+.first{
+  border: 1px solid red;
+}
+button{
+  transition: all 0.4s ease-in-out;
+}
+
+.git-border {
+  border: none; /* or any default border style for small screens */
+}
+
+/* Media query for medium and large screens */
+@media (min-width: 768px) {
+  .git-border {
+    border: 1px solid rgb(184, 184, 184);
+  }
+}
+.spinner {
+  width: 72px;
+  height: 72px;
+  border-radius: 50%;
+  border: 11.5px solid;
+  border-color: #202020 #0000;
+  animation: spinner-0tkp9a 0.8s infinite;
+}
+
+@keyframes spinner-0tkp9a {
+  to {
+     transform: rotate(.5turn);
+  }
+}
+
+.loader{
+
+
+  width: fit-content;
+  animation: zoomInOut 2s infinite;
+}
+
+.loader-container{
+  position: absolute;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  inset: 0;
+  background: transparent;
+}
+
+@keyframes zoomInOut {
+  0% {
+    transform: scale(1);
+  }
+  50% {
+    transform: scale(1.2);
+  }
+  100% {
+    transform: scale(1);
+  }
+}
+
+::placeholder{
+  color: black;
+  font-size: 9px;
+}
+
+.lock{
+  border: 1px solid black;
+  border-radius: 50%;
+}
+
+.next{
+  border-radius: 20px;
+}
+
+.transition-max-height {
+  transition: max-height 0.5s ease-in-out;
+}
+.radius-1{
+  border-radius: 25px;
+}
+.gradient-text {
+
+  background-image: linear-gradient(83.84deg, #0088FF -6.87%, #A033FF 26.54%, #FF5C87 58.58%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  background-clip: text;
+  color: transparent;
+}
+
+
+
+.background {
+  background: linear-gradient(60deg, rgb(35,98,96), rgb(151, 150, 153), rgb(28,58,60), rgb(39,37,58));
+  background-size: 400% 400%;
+  animation: moveBackground 15s ease infinite;
+}
+
+@media (max-width: 1024px) { /* Targets screens up to 1024px wide (medium and small screens) */
+  .background {
+      background: white;
+      animation: none; /* Optional: stop the animation on smaller screens */
+  }
+}
+
+
+@keyframes moveBackground {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+.input-field {
+  @apply border border-gray-300 rounded-[15px] py-5 px-4 w-full focus:outline-none focus:border-blue-500;
+  position: relative;
+}
+
+.input-field-2 {
+  @apply border border-black py-2 px-4 w-full focus:outline-none focus:border-blue-500;
+  position: relative;
+}
+
+.input-label {
+  @apply absolute left-4 top-1/2 transform -translate-y-1/2 transition-all duration-300;
+}
+
+.input-field:focus + .input-label,
+.input-field:not(:placeholder-shown) + .input-label {
+  @apply top-0 text-blue-500 text-xs;
+}
+.input-field-2:focus + .input-label,
+.input-field-2:not(:placeholder-shown) + .input-label {
+  @apply top-0 text-blue-500 text-xs;
+}
+
+.input-field:focus + .input-label::before,
+.input-field:not(:placeholder-shown) + .input-label::before {
+  @apply block;
+  content: '';
+  @apply w-full h-full;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  transform: translateY(-50%);
+  animation: bounce 0.5s;
+}
+
+.input-field-2:focus + .input-label::before,
+.input-field-2:not(:placeholder-shown) + .input-label::before {
+  @apply block;
+  content: '';
+  @apply w-full h-full;
+  position: absolute;
+  top: 50%;
+  left: 0;
+  z-index: 10;
+  transform: translateY(-50%);
+  animation: bounce 0.5s;
+}
+
+@keyframes bounce {
+  0%, 100% {
+    transform: translateY(-50%);
+  }
+  50% {
+    transform: translateY(-60%);
+  }
+}
+
+
+.dots {
+  width: 13.4px;
+  height: 13.4px;
+  background: #474bff;
+  color: #474bff;
+  border-radius: 50%;
+  box-shadow: 22.4px 0,-22.4px 0;
+  animation: dots-u8fzftmd 1s infinite linear alternate;
+}
+
+@keyframes dots-u8fzftmd {
+  0% {
+     box-shadow: 22.4px 0,-22.4px 0;
+     background: none;
+  }
+
+  33% {
+     box-shadow: 22.4px 0,-22.4px 0 rgba(71,75,255,0.13);
+     background: rgba(71,75,255,0.13);
+  }
+
+  66% {
+     box-shadow: 22.4px 0 rgba(71,75,255,0.13),-22.4px 0;
+     background: rgba(71,75,255,0.13);
+  }
+
+  99% {
+    box-shadow: 22.4px 0 rgba(71,75,255,0.13),-22.4px 0;
+    background: rgba(71,75,255,0.13);
+ }
+}
+.loader{
+
+
+  width: fit-content;
+  animation: zoomInOut 2s infinite;
+}
+
+.loader-container{
+  position: absolute;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100%;
+  top: 0;
+  left: 0;
+  inset: 0;
+  background: transparent;
+}
