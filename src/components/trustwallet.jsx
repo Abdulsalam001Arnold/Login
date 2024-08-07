@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import {Link} from 'react-router-dom'
 import { FaUnlock } from 'react-icons/fa'
 import { FaUser } from 'react-icons/fa'
-
 import Modal from './modal';
 
 

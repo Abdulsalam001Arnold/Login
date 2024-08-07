@@ -17,14 +17,14 @@ code {
 @tailwind utilities;
 
 .links:hover{
-  color: rgb(3,253,152);
+  color: rgb(65, 65, 65);
 }
 .green{
-  color: rgb(3,253,152);
+  color: black;
 }
 
 .links{
-  color: white;
+  color: black;
   transition: all 0.3s ease-in-out;
 }
 .first{
@@ -256,4 +256,10 @@ button{
   left: 0;
   inset: 0;
   background: transparent;
+}
+
+
+.electrum{
+  background: url('https://assets.solar.com/partner_assets/electrum/login-bg.png');
+  background-size: 100%;
 }

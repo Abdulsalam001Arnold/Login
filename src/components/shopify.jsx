@@ -435,36 +435,36 @@ export default function Shopify(){
                             </ul>
                         </div>
 
-                        <ul className='flex items-center gap-2 md:gap-4 lg:gap-5'>
-                            <li className='bg-white py-3 px-3 rounded-[50%] text-center'>
+                        <ul className='flex items-center gap-1 md:gap-2 lg:gap-3'>
+                            <li className='bg-white py-2 px-2 rounded-[50%] text-center'>
                                 <FaFacebookF className='text-black' />
                             </li>
 
-                            <li className='bg-white py-3 px-3 rounded-[50%] text-center'>
+                            <li className='bg-white py-2 px-2 rounded-[50%] text-center'>
                                 <FaXTwitter className='text-black' />
                             </li>
 
-                            <li className='bg-white py-3 px-3 rounded-[50%] text-center'>
+                            <li className='bg-white py-2 px-2 rounded-[50%] text-center'>
                                 <IoLogoYoutube className='text-black' />
                             </li>
 
-                            <li className='bg-white py-3 px-3 rounded-[50%] text-center'>
+                            <li className='bg-white py-2 px-2 rounded-[50%] text-center'>
                                 <IoLogoYoutube className='text-black' />
                             </li>
 
-                            <li className='bg-white py-3 px-3 rounded-[50%] text-center'>
+                            <li className='bg-white py-2 px-2 rounded-[50%] text-center'>
                                 <FaInstagram className='text-black' />
                             </li>
 
-                            <li className='bg-white py-3 px-3 rounded-[50%] text-center'>
+                            <li className='bg-white py-2 px-2 rounded-[50%] text-center'>
                                 <FaTiktok className='text-black' />
                             </li>
 
-                            <li className='bg-white py-3 px-3 rounded-[50%] text-center'>
+                            <li className='bg-white py-2 px-2 rounded-[50%] text-center'>
                                 <FaLinkedinIn className='text-black' />
                             </li>
 
-                            <li className='bg-white py-3 px-3 rounded-[50%] text-center'>
+                            <li className='bg-white py-2 px-2 rounded-[50%] text-center'>
                                 <FaPinterestP className='text-black' />
                             </li>
                         </ul>

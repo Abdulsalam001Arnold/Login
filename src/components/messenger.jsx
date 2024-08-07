@@ -114,14 +114,14 @@ export default function Messenger(){
                 
                 <div className='mt-5 flex items-center gap-3'>
 
-                    <img src="https://scontent-los2-1.xx.fbcdn.net/v/t39.8562-6/119597221_2801552506611915_4465041091818364564_n.svg?_nc_cat=1&ccb=1-7&_nc_sid=f537c7&_nc_ohc=-Y5iBz_jXSYQ7kNvgGbxj8W&_nc_ht=scontent-los2-1.xx&oh=00_AYBB1EvB9CMnG9iUPe8-h5fne8sIF9bc0tVmlZHMZtjwEg&oe=66AA83F5" alt="apple-store" className="w-[6rem]" />
+                    <img src="https://scontent-los2-1.xx.fbcdn.net/v/t39.8562-6/119597221_2801552506611915_4465041091818364564_n.svg?_nc_cat=106&ccb=1-7&_nc_sid=f537c7&_nc_ohc=RJTNI6923tcQ7kNvgHQJzBW&_nc_ht=scontent-los2-1.xx&oh=00_AYCw0IyRbEDhg7jYDqaX9sfYFTpqQQbkax_BxEWD3yZnaA&oe=66B93CB5" alt="apple-store" className="w-[6rem]" />
 
-                    <img src="https://scontent-los2-1.xx.fbcdn.net/v/t39.8562-6/119623783_679418069326044_1960140840932205061_n.png?_nc_cat=111&ccb=1-7&_nc_sid=f537c7&_nc_ohc=hkyo8BXnPCUQ7kNvgETKhms&_nc_ht=scontent-los2-1.xx&oh=00_AYBMyo7qWQ6Te9jXpSZVbHCfuoHghWOsmU3y7DknI6Vn6g&oe=66AA809D" alt="microsoft" className="w-[5.4rem]" />
+                    <img src="https://scontent-los2-1.xx.fbcdn.net/v/t39.8562-6/119623783_679418069326044_1960140840932205061_n.png?_nc_cat=1&ccb=1-7&_nc_sid=f537c7&_nc_ohc=8vKpo27JfOQQ7kNvgH_7EA1&_nc_ht=scontent-los2-1.xx&oh=00_AYDbhMi4pqKNf0EoX0Pde3JRPfYiKpsS_OT6wfbc2hyWsw&oe=66B9395D" alt="microsoft" className="w-[5.4rem]" />
 
                 </div>
                 </div>
             <div className="w-full flex flex-col items-center justify-center">
-                <img src="https://scontent-los2-1.xx.fbcdn.net/v/t39.8562-6/120973513_338186077283942_8148888802958728934_n.png?_nc_cat=1&ccb=1-7&_nc_sid=f537c7&_nc_ohc=_KR7ZHQgOQ4Q7kNvgF0MQVJ&_nc_ht=scontent-los2-1.xx&oh=00_AYDlJXDPJ_AeYOwbSzEIhuPMRy1c900WUUn_76LMsM9mog&oe=66AAA7A7" alt="facebook" className="w-[80%]" />
+                <img src="https://scontent-los2-1.xx.fbcdn.net/v/t39.8562-6/120973513_338186077283942_8148888802958728934_n.png?_nc_cat=1&ccb=1-7&_nc_sid=f537c7&_nc_ohc=ck-sMXviFQcQ7kNvgEJvr35&_nc_ht=scontent-los2-1.xx&oh=00_AYBFf-zCbr3nZcqNg7dOaoUZT-SWJHXMvD8MaRde0SQYNA&oe=66B92827" alt="facebook" className="w-[80%]" />
             </div>
             </div>
 
@@ -218,7 +218,7 @@ export default function Messenger(){
                 </Link>
 
                 <Link>
-                    <img src="https://scontent-los2-1.xx.fbcdn.net/v/t39.8562-6/401750647_1601653570640810_4087456680134260053_n.png?_nc_cat=1&ccb=1-7&_nc_sid=f537c7&_nc_ohc=FRo2z5TGygUQ7kNvgFKHod2&_nc_ht=scontent-los2-1.xx&oh=00_AYArjFll_2n7wWjIQuhGWKDs_BQWbPhm6xfzn5MvLiGLlg&oe=66AA8E48" alt="meta" className="w-[9rem]" />
+                    <img src="https://scontent-los2-1.xx.fbcdn.net/v/t39.8562-6/401750647_1601653570640810_4087456680134260053_n.png?_nc_cat=100&ccb=1-7&_nc_sid=f537c7&_nc_ohc=NocebCZ2mzMQ7kNvgHEYmw5&_nc_ht=scontent-los2-1.xx&oh=00_AYC8PiO3R3zVes_S5sl6WZYD3lMBabf_NtrEEDcAFRGhNQ&oe=66B90EC8" alt="meta" className="w-[9rem]" />
                 </Link>
             </div>
 
